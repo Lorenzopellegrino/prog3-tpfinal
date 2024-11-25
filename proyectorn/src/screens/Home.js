@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, FlatList, ActivityIndicator, TouchableOpacity } from 'react-native';
 import { auth, db } from "../firebase/Config";
 
-class Home extends Component () {
+class Home extends Component  {
     constructor(props) {
         super(props);
         this.state = {
