@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { auth } from "../firebase/config";
+import { auth } from "../firebase/Config";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Profile from '../screens/Profile';
@@ -8,7 +8,7 @@ import Posts from '../screens/Posts';
 
 const Tab = createBottomTabNavigator();
 
-class Menu extends Component {
+class HomeMenu extends Component {
     constructor(p) {
         super(p);
         this.state = {
@@ -59,4 +59,4 @@ class Menu extends Component {
     }
 };
 
-export default Menu;
+export default HomeMenu;

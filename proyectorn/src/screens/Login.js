@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, FlatList, ActivityIndicator, TouchableOpacity } from 'react-native';
-import { auth, db } from "../firebase/config";
+import { auth, db } from "../firebase/Config";
 
 class Login extends Component {
   constructor(p) {
