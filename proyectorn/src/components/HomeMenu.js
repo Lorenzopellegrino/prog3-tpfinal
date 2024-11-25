@@ -3,8 +3,8 @@ import { auth } from "../firebase/Config";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home';
 import Profile from '../screens/Profile';
-import Search from '../screens/Search';
 import Posts from '../screens/Posts';
+import Users from '../screens/Users';
 
 const Tab = createBottomTabNavigator();
 
@@ -38,7 +38,7 @@ class HomeMenu extends Component {
                 <Tab.Screen
                     options={{ headerShown: false }}
                     name="Users"
-                    component={Search}
+                    component={Users}
                 />
 
                 <Tab.Screen
