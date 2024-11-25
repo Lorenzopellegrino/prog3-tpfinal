@@ -1,15 +1,17 @@
-import { initializeApp } from "firebase/app";
+import app from 'firebase/app'
+import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDtxw4T-Lt0vVqpr323u96TfcC3f3m6SLs",
-  authDomain: "finalprogra3.firebaseapp.com",
-  projectId: "finalprogra3",
-  storageBucket: "finalprogra3.firebasestorage.app",
-  messagingSenderId: "773034931250",
-  appId: "1:773034931250:web:5a15d03a21d4b2a9a9b82b"
+  apiKey: "AIzaSyDc6g1_okvwL1o5TH4HfhBpeVZXpY7xGBk",
+  authDomain: "rnfinal-dfb50.firebaseapp.com",
+  projectId: "rnfinal-dfb50",
+  storageBucket: "rnfinal-dfb50.firebasestorage.app",
+  messagingSenderId: "555474095289",
+  appId: "1:555474095289:web:d709f582626de9bd7f5f68"
 };
 
-const app = initializeApp(firebaseConfig);
+
+ app.initializeApp(firebaseConfig);
 export const auth = firebase.auth();
 export const storage = app.storage();
 export const db = app.firestore();

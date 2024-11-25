@@ -3,8 +3,8 @@ import { StyleSheet, Text, View, FlatList, ActivityIndicator, TouchableOpacity }
 import { auth, db } from "../firebase/Config";
 
 class Home extends Component () {
-    constructor(p) {
-        super(p);
+    constructor(props) {
+        super(props);
         this.state = {
             posts: [],
         };
